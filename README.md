@@ -38,6 +38,6 @@ git clone https://github.com/tradebrains/TradebriansTranscoder/
 	The extracted files are placed in the root directory of the project.
 3. Generate a build file.
 4. Go to your build directory, create a new folder named **videos**. The program has been hardcoded to take videos as the directory, if you intend to change it, the below line needs to be tweaked a little.
-	``string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"videos");``
+``string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"videos");``
 5. Copy the files that you intend to convert into the videos directory.
 6. Go back to the build exe file, run it and watch the magic happen. Upon completion, you will see a command line message saying conversion completed and you can copy the video files which are now converted and ready to upload.
