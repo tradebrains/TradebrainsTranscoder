@@ -33,8 +33,8 @@ If you're not interested in how it works and just want to use the build files bu
 git clone https://github.com/tradebrains/TradebriansTranscoder/
 ``
 2. Extract 2 exe files from the [FFmpeg Build for windows](https://ffmpeg.org/download.html#build-windows). The exe files are:
- 	1.ffmpeg.exe
-	2.ffprobe.exe
+	1. ffmpeg.exe
+	2. ffprobe.exe
 	The extracted files are placed in the root directory of the project.
 3. Generate a build file.
 4. Go to your build directory, create a new folder named **videos**. The program has been hardcoded to take videos as the directory, if you intend to change it, the below line needs to be tweaked a little.
